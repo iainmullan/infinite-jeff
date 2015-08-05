@@ -32,6 +32,13 @@ body {
     cursor: pointer;
 }
 
+.photo.y2015 .hotspot {
+    top: 45%;
+    left: 42%;
+    width: 15%;
+    height: 16%;
+}
+
 .photo.y2014 .hotspot {
     top: 32%;
     left: 43%;
