@@ -19,6 +19,11 @@ body {
 .photo {
     position: absolute;
     top: 0;
+    display: none;
+}
+
+.photo:last-child {
+    display: block;
 }
 
 .photo img {
