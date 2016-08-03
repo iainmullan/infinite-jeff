@@ -21,6 +21,87 @@
     });
     </script>
 
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            font-family: Arial, "Sans-Serif";
+            background: #C6D4D7;
+        }
+
+        #gallery {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+
+            position: relative;
+        }
+
+        .photo {
+            position: absolute;
+            top: 0;
+            display: none;
+        }
+
+        .photo:last-child {
+            display: block;
+        }
+
+        .photo img {
+            width: 100%;
+        }
+        .hotspot {
+            position: absolute;
+            display: block;
+            background: rgba(255,255,255,0.1);
+            border: 2px solid rgba(255,255,255,0);
+            cursor: pointer;
+        }
+
+        .photo.y2016 .hotspot {
+            top: 39%;
+            left: 46%;
+            width: 29%;
+            height: 29%;
+        }
+
+        .photo.y2015 .hotspot {
+            top: 45%;
+            left: 42%;
+            width: 15%;
+            height: 16%;
+        }
+
+        .photo.y2014 .hotspot {
+            top: 32%;
+            left: 43%;
+            width: 18%;
+            height: 17%;
+        }
+
+        .photo.y2013 .hotspot {
+            top: 83.5%;
+            left: 84.5%;
+            width: 16%;
+            height: 16%;
+        }
+
+        .photo.y2010 .hotspot {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .photo:hover .hotspot {
+            border: 2px solid #cc5544;
+        }
+
+</style>
+
 </head>
 <body>
 
